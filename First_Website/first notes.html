@@ -1,0 +1,99 @@
+<!DOCTYPE html> Document type declaration: Always at the very beginning of a HTML doc. Lets web browsers know which version of HTML is being used.
+<html lang="en"> HTML: Begins the HTML document
+<head> Head: Inside the Head element and identifies the top of the document.
+  <meta charset="utf-8"> Not all elements have a closing/opening tag
+  <title>My First Webpage</title> Title: Inside both the head and HTML elements. Is the Document title, may link to any other external files or other metadata
+</head>
+ <body> Body: Where the visible content of the webpage is placed. Can ONLY appear once in a document
+
+    Elements are nested
+	     -Nested means that an element is placed inside another element
+	
+	Ident elements to keep the document organized
+	    -Pattern of indenting elements continues as elements continue to get added (esp in a nest)
+	
+	<!--This is a comment-->
+	    Comments start with <!--
+		Comments end with   -->
+	
+	Comments are only for humans to used
+	Comments dont disrupt how the webpage displaces since the browser ignores comments
+	    <!--Pretty neat huh?-->
+	
+	<a href="https://phoenixcollege.edu" target=_blank">Visit Phoenix College</a>
+		<!---<a> is an anchor element used to put hyperlinks into the code.
+		The "href=" attribute provides the URL of the target page. 
+		The "target" attribute specifies how/Where to open the document. 
+			The target attribute can have one of the following values:
+				_self - Default. Opens the document in the same window/tab as it was clicked
+				_blank - Opens the document in a new window or tab
+				_parent - Opens the document in the parent frame
+				_top - Opens the document in the full body of the window-->
+
+
+	<a href="mailto:contact@test.com">Email Us Here</a>
+		<!-- the mailto attributes links to an email address. 
+		When the provided email address is clicked, the browser opens a new mail message addressed to the 
+		provided email address-->
+	
+    <h1>This is my first Webpage</h1>
+	      <!--Heading
+		     -Block-level Documents
+			 -6 types/ranks (<h1></h1> through <h6></h6>
+			     1 is the biggest and 6 is the smallest
+			 -Helps organize the webpage by breaking up content and establish hierarchy
+			 -Lets search engine index and determine the content on a page-->
+
+    <p><strong>This is a paragraph</strong></p>
+	    <!--Paragraphs
+		    -Block level element
+			-Comes after headings
+			-Uses the <p></p> tags
+			-Can appear multiple times
+			-Always starts on a new line-->
+		<!--Bold text
+		     -Uses the <strong></strong> OR the <b></b> elements
+			 -Both are inline level elements
+					 <strong></strong>
+					     -Used more often
+						 -Gives strong importance to the text
+					<b></b> 
+					    -Stylistically offsets text idk what that means-->
+    <p>This is <i>another paragraph</i></p>
+	     <!--Italic Text
+		    -Uses the <em></em> OR the <i></i> elements
+			-Both are inline level elements
+			        -<em></em>
+					     -Places a stressed emphasis on the text
+						 -Used more often
+					-<i></i>
+					     Conveys text in an alternative voice/tone (like it was placed in quotation marks? idk what that means)-->
+
+    <p>This is <br>a line break<br></p> 
+	            <!--<br><br> is an empty element--->
+
+<ul>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ul>
+   <!--<ul></ul> stands for unordered lists and appears as bullet points--->
+<hr>
+   <!--<Hr> is an empty element
+   <hr> represents a horrizontal line like this:
+   ---------------------------------------------
+   --> 
+<ol>
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+</ol>
+   <!-- Conversely, <ol></ol> stands for ordered list and appears as 1) 2) 3) and so on--->
+
+
+     <h2>About HTML Validation</h2>
+	    <p>HTML validation ensures your code meets the W3C specifications and is free. <br>
+		HTML validations checks your code for syntax errors and validates your web pages and serves as proof your code uses the correct syntax</p>
+
+</body>
+</html>
